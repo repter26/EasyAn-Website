@@ -1,0 +1,57 @@
+.timCard {
+    height: 60rem;
+
+    background-color: rgba(255, 255, 255, 0.90);
+
+    display: flex;
+    overflow: hidden; 
+    flex-direction: row;
+
+
+    
+}
+.intro{
+    margin: 4rem;
+ 
+    color: #1A2B4C; /* Example hex color code - adjust as needed */
+    
+}
+.profileImage{
+    margin-left: 20rem;
+    margin-top: 10rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+.timName{
+    margin-top: 1rem;
+    margin-left: 20rem;
+    text-align: center;
+
+    
+}
+
+.about{
+    margin-top: 25rem;
+    margin-left: 12rem;
+    width: 40rem;
+    height: 13rem;
+    text-align: left;
+}
+.certification{
+    width: 20rem;
+    height: 10rem;
+    margin: 2rem;
+    
+}
+.certifications{
+    margin-left: 5rem;
+    display:flex;
+    flex-direction: row;
+
+    
+
+}

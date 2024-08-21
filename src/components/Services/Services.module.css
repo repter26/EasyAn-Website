@@ -1,0 +1,60 @@
+.servicesCard{
+    height: 50rem;
+    background-color: rgba(200, 220, 220, 1);
+    display: flex;
+    overflow: hidden; 
+    flex-direction: column;
+    -ms-flex-align: center;
+}
+
+.intro{
+    margin: 4rem;
+    
+    color: #1A2B4C; /* Example hex color code - adjust as needed */
+}
+.servicesdescriptions {
+    padding-top: 1rem;
+    margin: 0rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.descriptions {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10px;
+    
+}
+.overlay{
+    height: 30rem;
+    width: 35rem;
+    border-radius: 1rem;
+    background-color: rgba(74, 60, 85, 0.8); /* Initial dark background */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+    position:absolute;
+}
+
+.overlay:hover {
+    background-color: rgba(220, 220, 220, 0.2); /* Background color on hover */
+}
+.images{
+    height: 30rem;
+    width: 35rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added drop shadow */
+}
+.h{
+  position: absolute;
+  margin-top: 13rem;
+  color: white;
+  margin-left:9rem;
+  z-index: 1;
+
+}
+.p{
+    width: 25rem;
+    position: absolute;
+
+}

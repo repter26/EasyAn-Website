@@ -1,0 +1,7 @@
+.mainBg{
+    background-image: url('./assets/mainbg.svg'); /* Specify the path to your image */
+    background-size: cover; /* This makes the background cover the entire div */
+    background-repeat: repeat; /* Prevents the background from repeating */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; /* Makes the background stationary */
+}

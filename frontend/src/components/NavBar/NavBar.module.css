@@ -1,0 +1,86 @@
+.navbar {
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    z-index: 1000;
+    padding-right: 5rem;
+    transition: background-color 0.3s ease, height 0.3s ease; 
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque white background */
+    backdrop-filter: blur(13px); /* Apply blur */
+    height: 7rem;
+}
+.logoImg{
+    height: 8rem;
+    margin-right: 0.5rem;
+    margin-left: 10rem;
+    transition: height 0.3s ease;
+}
+
+.logoImg.scrolled{
+    height: 5rem;
+    margin-right: 0.5rem;
+    margin-left: 10rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.navBarButton {
+    margin-left: auto; 
+    justify-content: center;
+    padding-top: 4rem;
+    transition: padding-top 0.5s ease;
+
+}
+.navBarButton.scrolled {
+    margin-left: auto; 
+    justify-content: center;
+    padding-top: 3rem;
+
+}
+
+.logoText {  
+    opacity: 100%;
+    
+}
+
+.btnText {
+    border: 0px;  
+    margin: 1rem;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    
+}
+
+.btnText.scrolled {
+    border: 0px;  
+    margin: 1rem;
+    color:rgba(74, 60, 85, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    
+}
+
+
+.btnText:hover {
+    color: rgb(106, 168, 184); /* Optional: change text color on hover */
+}

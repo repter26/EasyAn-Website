@@ -1,0 +1,79 @@
+.servicesCard {
+    height: auto;
+    background-color: rgba(200, 220, 220, 1);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.servicesdescriptions {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.descriptions {
+    position: relative; /* Relative positioning for the overlay */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    max-width: 100%;
+}
+
+.overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgba(74, 60, 85, 0.8);
+    transition: background-color 0.3s ease;
+    z-index: 2; /* Ensure the overlay is on top of the image */
+}
+.intro{
+    
+    margin: 4rem;
+    color: #1A2B4C; /* Example hex color code - adjust as needed */
+}
+.overlay:hover {
+    background-color: rgba(220, 220, 220, 0.2);
+}
+
+.images {
+   
+    height: 30rem;
+    width: 35rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* Ensure the image is behind the overlay */
+}
+
+.h {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+
+    width: 20rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 11; /* Ensure the text is above the overlay */
+}
+@media (max-width: 1800px) {
+    .images {
+   
+        height: 20rem;
+        width: 25rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1; /* Ensure the image is behind the overlay */
+    }
+
+
+}
